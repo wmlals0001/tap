@@ -58,7 +58,6 @@ overflow:hidden;
 
 header {
 width:100%;
-position:absolute;
 position:fixed;
 top:0;
 z-index:999;
@@ -212,7 +211,7 @@ opacity:0;
 
 .section2 {
 width:100%;
-background-color:#e7e7e7;
+background-color:#FFF;
 overflow:hidden;
 }
 
@@ -749,36 +748,36 @@ overflow:hidden;
 
 
 
-.section5 {
+.section4 {
 width:100%;
 overflow:hidden;
 background-color:#494340;
 }
 
-.section5 ul {
+.section4 ul {
 text-align:center;
 }
 
-.section5 ul li {
+.section4 ul li {
 margin:25px 0;
 color:#e6e2d9;
 }
 
-.section5 ul li:nth-child(1){
+.section4 ul li:nth-child(1){
 font-family: 'Ubuntu', sans-serif;
 font-size:34px;
 font-weight:900;
 margin-top:80px;
 }
 
-.section5 ul li:nth-child(2){
+.section4 ul li:nth-child(2){
 width:50px;
 height:1px;
 background-color:#e6e2d9;
 margin:0 auto;
 }
 
-.section5 ul li:nth-child(3){
+.section4 ul li:nth-child(3){
 font-size:16px;
 font-family:'NanumGothic';
 }
