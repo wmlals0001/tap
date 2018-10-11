@@ -83,7 +83,7 @@ $('header>ul>li:nth-child(1)').click(function(){
 });
 
 $('header>ul>li:nth-child(2)').click(function(){
-	$("html, body").stop().animate({scrollTop:Top2-65},1000);
+	$("html, body").stop().animate({scrollTop:Top1-65},1000);
 });
 
 $('header>ul>li:nth-child(3)').click(function(){
