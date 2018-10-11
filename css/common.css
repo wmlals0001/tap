@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+
 @font-face{
   font-family:'NanumSquare'; 
   src: 
@@ -41,8 +43,10 @@ height:100%;
 	  padding:0;
 	  list-style:none;
 	  box-sizing:border-box;
-	  font-family: 'NanumSquare', sans-serif; 
+      font-family: 'NanumBarunGothic'
+
 	}
+h1,h2,h3,h4,h5,h6 { font-family: 'NanumSquare', sans-serif; }
 
 a { text-decoration: none;
       color:inherit;
@@ -75,7 +79,7 @@ header h1 {
 }
 
 header ul {
-  width:385px;
+  width:390px;
   float: right;
   margin-top:20px;
 }
@@ -245,6 +249,7 @@ font-weight:900;
 margin-top:70px;
 }
 
+
 .section2_wrap>ul>li:nth-child(2){
 width:50px;
 height:1px;
@@ -256,6 +261,9 @@ margin:0 auto;
  font-family:'NanumGothic';
 font-size:16px;
 }
+
+.section2_wrap>ul>li:nth-child(3) strong{
+  font-size:20px; }
 
 .sec_infor {
 width:1024px;
