@@ -525,12 +525,12 @@ overflow:hidden;
 color:#fff;
 text-align:center;
 margin-top:130px;
-  font-size:62px;
+  font-size:58px;
   font-family: 'Nanum Brush Script', cursive;
   font-weight:200;
 }
 
-.memory_content{ text-align: center; color: #FFF; font-size:22px; line-height:35px; margin-top:20px; font-family: 'Nanum Myeongjo', serif;
+.memory_content{ text-align: center; color: #FFF; font-size:18px; line-height:32px; margin-top:20px; font-family: 'Nanum Myeongjo', serif;
   font-weight:200; margin-bottom:130px; }
 
 /*work*/
@@ -657,7 +657,7 @@ width:100%;
 .snip1548 h5 {
   font-weight: normal;
   background-color: #b4a592;
-  padding: 3px 10px;
+  padding: 5px 13px;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   -webkit-transition-delay: 0s;
@@ -900,8 +900,8 @@ font-size:16px;
 width:100%;
 }
 
-
-
+.bg_fixed h2{ font-size:48px; }
+.memory_content { font-size:16px; }
 
 }
 
@@ -949,7 +949,8 @@ font-size:22px;
 display:none;
 }
 
-
+.bg_fixed h2{ font-size:42px; }
+.memory_content { font-size:14px; line-height:30px; }
 
 
 
