@@ -538,6 +538,7 @@ margin-top:130px;
 .section3 {
 width:100%;
 overflow:hidden;
+  padding-bottom:50px;
 }
 
 .section3 ul {
@@ -703,6 +704,7 @@ width:100%;
 .section4 {
 width:100%;
 overflow:hidden;
+  display: none;
 }
 
 
