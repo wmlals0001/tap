@@ -68,6 +68,16 @@ var Top4 = $('.section4').offset().top;
 var Top5 = $('.input_wrap').offset().top;
 var Top6 = $('.bg_fixed').offset().top;
 
+$( window ).resize( function() {
+    Top1 = $('.section1').offset().top;
+    Top2 = $('.section2').offset().top;
+    Top3 = $('.section3').offset().top;
+    Top4 = $('.section4').offset().top;
+    Top5 = $('.input_wrap').offset().top;
+    Top6 = $('.bg_fixed').offset().top;
+});
+
+
 $('header>ul>li:nth-child(1)').click(function(){
 	$("html, body").stop().animate({scrollTop:-65},1000);
 });
@@ -81,7 +91,7 @@ $('header>ul>li:nth-child(3)').click(function(){
 });
 
 $('header>ul>li:nth-child(4)').click(function(){
-	$("html, body").stop().animate({scrollTop:$(document).height()},1000);
+	$("html, body").stop().animate({scrollTop:Top4-65},1000);
 });
 
 
@@ -95,11 +105,8 @@ $(window).scroll(function(){
 	sc = $(window).scrollTop();
 if ( sc >= Top1 ){
 	$('header').css({'background-color':'#111','border-bottom':'1px solid #e6e2d9'});
-}
-
-else if ( sc < Top1 ){
+}else if ( sc < Top1 ){
 	$('header').css({'background-color':'rgba(0,0,0,0)','border-bottom':'none'});
-
 }
 
 if ( sc >= Top1-500 ){
@@ -112,44 +119,24 @@ if ( sc >= Top1-100 ){
 	$('.sub4 ul').delay(500).animate({'opacity':'1','right':'40px'},1500);
 }
 
-if (  sc >= Top2-700  ){
+if (  sc >= Top2-400  ){
 	$('.in1').animate({'opacity':'1'},500);
 	$('.in2').delay(500).animate({'opacity':'1'},500);
 }
-
-
-if (  sc >= Top2-400  ){
+if (  sc >= Top2-600  ){
 	$('.in3').animate({'opacity':'1'},500);
 	$('.in4').delay(500).animate({'opacity':'1'},500);
 }
 
-
-//
-
-if (  sc >= Top4-700  ){
-	$('.p_gu').animate({'width':'82%'},2000);
-	$('.i_gu').delay(500).animate({'width':'78%'},1500);
-}
-
-if (  sc >= Top4-400  ){
-	$('.h_gu').animate({'width':'89%'},2000);
-	$('.j_gu').delay(500).animate({'width':'68%'},1500);
-}
-
-//
-
-if (  sc >= Top6-700  ){
+if (  sc >= Top6-400  ){
 	$('.fi1').animate({'opacity':'1'},500);
 	$('.fi2').delay(500).animate({'opacity':'1'},500);
 }
 
-if (  sc >= Top6-400  ){
+if (  sc >= Top6-600  ){
 	$('.fi3').animate({'opacity':'1'},500);
 	$('.fi4').delay(500).animate({'opacity':'1'},500);
 }
-
-
-
 
 });
 
