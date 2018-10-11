@@ -78,6 +78,7 @@ header h1 {
   font-size:28px;
   color: #FFF;
   float: left;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header ul {
@@ -90,7 +91,7 @@ header ul:after { content:''; display: block; clear: both; }
 header ul li {
 font-family: 'Ubuntu', sans-serif;
 display:inline-block;
-margin-right:40px;
+margin-right:20px;
 color:#fff;
 cursor:pointer;
 transition:0.5s;
@@ -113,7 +114,7 @@ top:0; right:0; left:0; bottom:0; margin:auto;
 .main_text p {
 font-size:70px;
 text-align:center;
-color:#e6e2d9;
+color: #FFF;
 font-family:'NanumGothic';
 font-weight:900;
 }
