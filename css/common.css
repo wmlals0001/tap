@@ -60,6 +60,7 @@ height:100%;
 background:url('../img/main_bg.jpg') center center no-repeat;
 background-attachment:fixed;
 overflow:hidden;
+  -webkit-background-size:; background-size:cover;
 }
 
 header {
@@ -105,32 +106,33 @@ width:50px;
 }
 
 .main_text {
-width:500px;
 height:120px;
+  text-align: center;
 position:absolute;
 top:0; right:0; left:0; bottom:0; margin:auto;
 }
 
 .main_text p {
-font-size:70px;
-text-align:center;
-color: #FFF;
-font-family:'NanumGothic';
-font-weight:900;
+  font-size:58px;
+  text-align:center;
+  color: #FFF;
+  font-family:'Nanum Brush Script', cursive;
+  font-weight:normal;
+  margin-bottom:5px;
 }
 
-.main_text p span {
-font-family:'NanumGothic';
-font-weight:900;
-}
+.main_text button{ width: 150px; padding:10px 0; border: 0.5px solid #e6e6e6; display: block; text-align: center; margin: 0 auto; font-size: 14px; border-radius: 5px; margin-top: 30px; cursor: pointer; background: none; color: #FFF; transition:0.5s; font-family:'Ubuntu', sans-serif; }
+.main_text button:hover { background-color: #FFF; color: #222; }
+
+button { outline: 0 }
 
 
-.main_text h3 {
-text-align:center;
-color:#fff;
-letter-spacing:8px;
-margin-top:5px;
-font-size:18px;
+
+.main_text span {
+  text-align:center;
+  color:#f4f4f4;
+  font-size:18px;
+  font-family:'Nanum Myeongjo', serif;
 }
 
 .top_img {
@@ -149,7 +151,7 @@ width:100%;
 .about_sub {
 width:100%;
 min-height:150px;
-padding-top:15.625%;
+padding-top:20%;
 position:relative;
 overflow:hidden;
 }
@@ -519,6 +521,7 @@ width:100%;
 background:url('../img/fixed_bg2.jpg') center center no-repeat;
 background-attachment:fixed;
 overflow:hidden;
+  -webkit-background-size:; background-size:cover;
 }
 
 .bg_fixed h2{
@@ -625,6 +628,7 @@ width:100%;
 .snip1548 img {
   vertical-align: top;
   max-width: 100%;
+  width:100%;
   backface-visibility: hidden;
 }
 .snip1548 figcaption {
