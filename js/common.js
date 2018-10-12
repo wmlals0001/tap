@@ -61,12 +61,13 @@ window.onload = function() {
 
 $(document).ready(function(){
 
-var Top1 = $('.section1').offset().top;
-var Top2 = $('.section2').offset().top;
-var Top3 = $('.section3').offset().top;
-var Top4 = $('.section4').offset().top;
-var Top5 = $('.input_wrap').offset().top;
-var Top6 = $('.bg_fixed').offset().top;
+    var Top1 = $('.section1').offset().top;
+    var Top2 = $('.section2').offset().top;
+    var Top3 = $('.section3').offset().top;
+    var Top4 = $('.section4').offset().top;
+    var Top5 = $('.input_wrap').offset().top;
+    var Top6 = $('.bg_fixed').offset().top;
+    var Top7 = $('.footer').offset().top;
 
 $( window ).resize( function() {
     Top1 = $('.section1').offset().top;
@@ -75,6 +76,7 @@ $( window ).resize( function() {
     Top4 = $('.section4').offset().top;
     Top5 = $('.input_wrap').offset().top;
     Top6 = $('.bg_fixed').offset().top;
+    Top7 = $('.footer').offset().top;
 });
 
 
@@ -91,7 +93,7 @@ $('header>ul>li:nth-child(3)').click(function(){
 });
 
 $('header>ul>li:nth-child(4)').click(function(){
-	$("html, body").stop().animate({scrollTop:Top4-65},1000);
+	$("html, body").stop().animate({scrollTop:Top7-65},1000);
 });
 
 
@@ -148,6 +150,12 @@ setInterval(function(){
 	$('.top_img').delay(500).animate({'bottom':'10px','opacity':'0.3'},1000);
 },4000);
 
+    //삭제
+    $('.skill_wrap>figure').click(function(){
+        alert("준비 중입니다. 조금만 기다려주세요!");
+    });
+
 
 });
+
 
