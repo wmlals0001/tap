@@ -930,8 +930,9 @@ font-size:45px;
 .main_text span{
 font-size:14px;
 }
-  
   header ul{ display: none; }
+  
+
 
 
 
@@ -955,7 +956,7 @@ display:none;
 
 .bg_fixed h2{ font-size:42px; }
 .memory_content { font-size:14px; line-height:30px; }
-
+  
 
 
 }
