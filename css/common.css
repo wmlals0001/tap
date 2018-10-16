@@ -1,8 +1,24 @@
 @charset "utf-8";
 
+
 @import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
-@import url(https://fonts.googleapis.com/css?family=Nanum+Brush+Script);
 @import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+
+/* nanum-brush-script-regular - latin_korean */
+@font-face {
+    font-family: 'Nanum Brush Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nanum-brush-script-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('Nanum Brush Script'), local('NanumBrush'),
+    url('../fonts/nanum-brush-script-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/nanum-brush-script-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/nanum-brush-script-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/nanum-brush-script-v12-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/nanum-brush-script-v12-latin_korean-regular.svg#NanumBrushScript') format('svg'); /* Legacy iOS */
+}
 
 
 
@@ -37,7 +53,7 @@ button { outline: 0 }
 .about_sub { width:100%; min-height:150px; padding-top:20%; position:relative; overflow:hidden; }
 .about_sub ul { color:#fff; }
 .about_sub ul li:nth-child(1){ font-family: 'Ubuntu', sans-serif; font-size:35px; font-weight:900; letter-spacing:1px; transition:0.5s; }
-.about_sub ul li:nth-child(2){ font-size:18px; transition:0.5s; margin-top:7px; }
+.about_sub ul li:nth-child(2){ font-size:16px; line-height:20px; transition:0.5s; margin-top:7px; }
 .sub1{ background:url('../img/1.jpg') top center no-repeat; background-size:100%; }
 .sub2{ background:url('../img/2.jpg') top center no-repeat; background-size:100%; }
 .sub3{ background:url('../img/3.jpg') top center no-repeat; background-size:100%; }
@@ -56,7 +72,7 @@ button { outline: 0 }
 .section2_wrap>ul>li:nth-child(3) strong{ font-size:18px; }
 .sec_infor { width:1024px; margin:20px auto 50px; }
 .sec_infor:after { content:''; display:block; clear:both; }
-.infor { width:256px; height:200px; float:left; padding-top:3%; opacity:0; }
+.infor { width:256px; height:200px; float:left; padding-top:6%; opacity:0; }
 .infor>ul { text-align:center; }
 .infor>ul>li { color:#000; }
 .infor>ul>li:nth-child(2){ margin-top:10px; margin-bottom:5px; font-weight:600; font-size:18px; }

@@ -71,12 +71,10 @@ if ( sc >= Top1-100 ){
 }
 
 if (  sc >= Top2-400  ){
-	$('.in1').animate({'opacity':'1'},500);
-	$('.in2').delay(500).animate({'opacity':'1'},500);
-}
-if (  sc >= Top2-600  ){
-	$('.in3').animate({'opacity':'1'},500);
-	$('.in4').delay(500).animate({'opacity':'1'},500);
+	$('.in1').animate({'opacity':'1','padding-top':'3%'},500);
+	$('.in2').delay(300).animate({'opacity':'1','padding-top':'3%'},500);
+    $('.in3').delay(600).animate({'opacity':'1','padding-top':'3%'},500);
+    $('.in4').delay(900).animate({'opacity':'1','padding-top':'3%'},500);
 }
 
 if (  sc >= Top6-400  ){
