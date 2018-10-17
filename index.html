@@ -11,32 +11,56 @@
   <title>Tap</title>
   <!-- 제이쿼리 설치 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/common.css" />
-  <script src="js/common.js"></script>
+	 
+	 <!-- 지민 -->
+    <link rel="stylesheet" href="css/common.css" />
+	 
+	<!-- 슬라이드 플러그인 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+
+	
+
 
 	 
  </head>
  <body>
-	<div class="main">
-		<header>
-			<h1>Tap</h1>
-			<ul>
-				<li>Home</li>
-				<li>About us</li>
-				<li>Photographers</li>
-				<li>Contact us</li>
-			</ul>
-		</header>
-
-		<div class="main_text">
-			<p>그 날의 감정, 그 날의 공기..</p>
-			<span>여러분은 어떤 순간에 사진을 찍으시나요?</span>
-			<button>Photographers</button>
-		</div>
-		<div class="top_img">
-			<img src="img/top.png" alt="" />
-		</div>
-	</div>
+	 <div class="swiper-container main">
+		 <header>
+				<h1>Tap</h1>
+				<ul>
+					<li>Home</li>
+					<li>About us</li>
+					<li>Photographers</li>
+					<li>Contact us</li>
+				</ul>
+			</header>
+		    <div class="swiper-wrapper main_bg">
+				<div class="swiper-slide main_bg1">
+					<div class="main_text">
+						<p>일상에서 낭만을 찾는 방법</p>
+						<span>여러분은 어떤 순간에 사진을 찍으시나요?</span>
+						<button>Photographers</button>
+					</div>
+				</div>
+				<div class="swiper-slide main_bg2">
+					<div class="main_text">
+						<p>사진을 펴다, 웃음꽃이 피다</p>
+						<span>여러분은 어떤 순간에 사진을 찍으시나요?</span>
+						<button>Photographers</button>
+					</div>
+				</div>
+				<div class="swiper-slide main_bg3">
+					<div class="main_text">
+						<p>오늘을 평생 간직할 수 있도록</p>
+						<span>여러분은 어떤 순간에 사진을 찍으시나요?</span>
+						<button>Photographers</button>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+		 <div class="swiper-pagination"></div>
+    </div>
 
 	<div class="section1">
 		<div class="about_sub sub1">
@@ -207,5 +231,31 @@
 			</div>
 		</div>
 	</div>
+	
+	
+	<!-- 지민 -->
+	<script src="js/common.js"></script>
+	
+	<!-- 슬라이드 플러그인 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
+	
+	<script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            effect: 'fade',
+            spaceBetween: 0,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+        });
+	</script>
+ 
+ 
  </body>
 </html>
