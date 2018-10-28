@@ -103,15 +103,15 @@ setInterval(function(){
          /*
         imagesNum = $(this).index()+1;
          $(".img_popwrap"+imagesNum).fadeIn();
-         swiper.update();
+        for(i=0; i < swiper.length ; i++){
+            swiper[i].update();
+        }
           */
     });
 
-    /*
     $(".close").click(function(){
       $(".img_popwrap").fadeOut();
     });
-     */
 
 
 });
