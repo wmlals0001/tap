@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127709147-1"></script>
+  <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-127709147-1');
+  </script>
+	 
   <meta charset="UTF-8">
   <meta name="Generator" content="EditPlus®">
   <meta name="Author" content="">
@@ -260,7 +268,46 @@
 			</div>
 		</div>
 	</div>
-	
+
+	 <!-- 이미지 상세 팝업 -->
+	 <div class="img_popwrap img_popwrap1">
+		<img src="img/close.png" alt="" class="close">
+		<div class="images_view">
+			<div class="swiper-container view_detail">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/pop_list1.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/pop_list2.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/pop_list3.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/pop_list4.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="img/pop_list5.jpg" alt=""></div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+			</div>
+		</div>
+	 </div>
+
+	 <!-- 이미지 상세 팝업 -->
+	 <div class="img_popwrap img_popwrap2">
+		 <img src="img/close.png" alt="" class="close">
+		 <div class="images_view">
+			 <div class="swiper-container view_detail">
+				 <div class="swiper-wrapper">
+					 <div class="swiper-slide"><img src="img/pop_list6.jpg" alt=""></div>
+					 <div class="swiper-slide"><img src="img/pop_list7.jpg" alt=""></div>
+					 <div class="swiper-slide"><img src="img/pop_list8.jpg" alt=""></div>
+					 <div class="swiper-slide"><img src="img/pop_list9.jpg" alt=""></div>
+					 <div class="swiper-slide"><img src="img/pop_list10.jpg" alt=""></div>
+					 <div class="swiper-slide"><img src="img/pop_list11.jpg" alt=""></div>
+				 </div>
+				 <!-- Add Arrows -->
+				 <div class="swiper-button-next swiper-button-white"></div>
+				 <div class="swiper-button-prev swiper-button-white"></div>
+			 </div>
+		 </div>
+	 </div>
+
 	
 	<!-- 지민 -->
 	<script src="js/common.js"></script>
@@ -270,7 +317,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 	
 	<script>
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.main', {
             slidesPerView: 'auto',
             effect: 'fade',
             spaceBetween: 0,
@@ -285,6 +332,14 @@
             loop: true,
         });
 	</script>
+	 <script>
+         var swiper = new Swiper('.view_detail', {
+             navigation: {
+                 nextEl: '.swiper-button-next',
+                 prevEl: '.swiper-button-prev',
+             },
+         });
+	 </script>
  
  
  </body>

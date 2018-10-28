@@ -100,7 +100,18 @@ setInterval(function(){
     //삭제
     $('.skill_wrap>figure').click(function(){
         alert("준비 중입니다. 조금만 기다려주세요!");
+         /*
+        imagesNum = $(this).index()+1;
+         $(".img_popwrap"+imagesNum).fadeIn();
+         swiper.update();
+          */
     });
+
+    /*
+    $(".close").click(function(){
+      $(".img_popwrap").fadeOut();
+    });
+     */
 
 
 });
