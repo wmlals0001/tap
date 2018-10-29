@@ -213,6 +213,7 @@ header h1 img { width:50px; }
     .main_text span { font-size: 14px; . footer_content_wrap }
     header ul { display: none; }
     .images_view{ width:90%; height:60vw; }
+    .close{ top:-50px; right:0; }
 }
 
  @media all and (max-width:600px) {
@@ -243,6 +244,7 @@ header h1 img { width:50px; }
   .section2_wrap>ul>li:nth-child(3) { font-size:16px; }
   .infor>ul>li:nth-child(3) { font-size:14px; }
   .infor { height:180px; }
+  
 }
 
 @media all and (max-width:420px){
