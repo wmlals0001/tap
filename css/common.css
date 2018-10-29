@@ -125,7 +125,7 @@ header h1 img { width:50px; }
 
 /*work*/
 
-.section3 { width:100%; overflow:hidden; padding-bottom:50px; }
+.section3 { width:100%; overflow:hidden; }
 .section3 ul { text-align:center; }
 .section3 ul li { margin:25px 0; color:#3c3c3c; }
 .section3 ul li:nth-child(1){ font-family: 'Ubuntu', sans-serif; font-size:34px; font-weight:900; margin-top:80px; }

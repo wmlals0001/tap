@@ -486,6 +486,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 	
 	<script>
+
         var swiper = new Swiper('.main', {
             slidesPerView: 'auto',
             effect: 'fade',
@@ -500,15 +501,14 @@
             },
             loop: true,
         });
+
+        var swiper = new Swiper('.view_detail', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
 	</script>
-	 <script>
-         var swiper = new Swiper('.view_detail', {
-             navigation: {
-                 nextEl: '.swiper-button-next',
-                 prevEl: '.swiper-button-prev',
-             },
-         });
-	 </script>
  
  
  </body>
