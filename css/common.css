@@ -214,6 +214,8 @@ header h1 img { width:50px; }
     header ul { display: none; }
     .images_view{ width:90%; height:60vw; }
     .close{ top:-50px; right:0; }
+    .swiper-button-next.swiper-button-black { width:15px; background-size:100%; }
+    .swiper-button-prev.swiper-button-black { width:15px; background-size:100%; }
 }
 
  @media all and (max-width:600px) {
